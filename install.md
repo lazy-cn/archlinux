@@ -110,6 +110,14 @@ efibootmgr --create --disk /dev/nvme0n1p1 --part 1 --label "Arch Linux Boot Mana
 ```
 ## 设置root密码
 
+## 添加用户
+```
+useradd -m -G wheel -s /bin/bash [用户名]
+
+#设置用户密码
+#修改用户权限
+```
+
 
 ## 重启
 
